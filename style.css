@@ -149,6 +149,26 @@ nav ul li a .quinto {
     font-size: 18px;
     font-weight: bold
   }
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+  }
+  
+  footer a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+  }
+  
+  footer h3 {
+	margin-bottom: 10px;
+  }
+  
+  footer .container {
+	max-width: 1200px;
+	margin: 0 auto;
+  }
   
   /* Añadir reglas de estilo para hacer la página responsive */
   @media (max-width: 600px) {
