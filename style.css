@@ -8,9 +8,6 @@ body {
 	margin:0;
 	padding:0;
 }
-
-/*EN EL VIDEO HAY UN ERROR POR EL CUAL NO SE VISUALIZA EN GOOGLE CHROME,
-EL CÓDIGO A CONTINUACIÓN YA ESTA CORREGIDO*/
 .titulo{
     text-align: center;
 }
@@ -169,6 +166,24 @@ nav ul li a .quinto {
 	max-width: 1200px;
 	margin: 0 auto;
   }
+  #servicios {
+	text-align: center;
+  }
+  
+  #servicios h2 {
+	margin-bottom: 20px;
+  }
+  
+  #servicios ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  #servicios li {
+	display: inline-block;
+	margin: 0 10px;
+  }
   
   /* Añadir reglas de estilo para hacer la página responsive */
   @media (max-width: 600px) {
@@ -179,4 +194,10 @@ nav ul li a .quinto {
       margin-right: 0;
       margin-bottom: 0.5em;
     }
+  }
+  @media (max-width: 768px) {
+	#servicios li {
+	  display: block;
+	  margin: 10px 0;
+	}
   }
