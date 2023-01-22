@@ -147,25 +147,61 @@ nav ul li a .quinto {
     font-weight: bold
   }
   footer {
-	background-color: #333;
-	color: #fff;
-	padding: 20px 0;
-  }
-  
-  footer a {
-	color: #fff;
+	background-color: yellow;
+	color: black;
+	font-family: Arial, sans-serif;
+	}
+	
+	footer h3 {
+	font-weight: bold;
+	}
+	
+	footer a {
+	color: black;
 	text-decoration: none;
+	}
+	
+	footer a:hover {
+	color: gray;
+	}
+	
+	footer .container {
+	padding: 30px;
+	}
+	
+	footer .col-md-4 {
+	text-align: center;
+	}
+	
+	footer .col-md-12 {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 20px;
+	}
+	
+	footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+	
+	footer li {
+	display: inline-block;
 	margin-right: 10px;
-  }
-  
-  footer h3 {
-	margin-bottom: 10px;
-  }
-  
-  footer .container {
-	max-width: 1200px;
-	margin: 0 auto;
-  }
+	}
+	
+	footer p {
+	margin-bottom: 0;
+	}
+	
+	footer .row {
+	border-top: 1px solid black;
+	padding-top: 20px;
+	}
+	
+	footer .row:first-child {
+	border-top: none;
+	}
   #servicios {
 	text-align: center;
   }
